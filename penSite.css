@@ -1,0 +1,57 @@
+﻿body {
+	padding: 2%;
+}
+
+td.gridDesign {
+	width: 175px;
+	height: auto;
+	padding: 20px;
+	margin: 5px;
+	float: left;
+	border: 2px solid #D3D3D3;
+	text-align: center;
+	background: #DCDCDC;
+}
+
+td.gridDesignSpecial {
+	width: 350px;
+	height: auto;
+	padding: 20px;
+	margin: 5px;
+	float: left;
+	border: 2px solid #D3D3D3;
+	text-align: center;
+	background: #DCDCDC;
+}
+
+p.centerButtonCushion {
+	width: 45%;
+	float: left;
+}
+
+span.centerButton {
+	padding: 20px;
+	width: 110px;
+	float: left;
+}
+
+h2 {
+	text-align: center;
+	margin: 10px;
+}
+
+article.addNew {
+	padding: 25px;
+	text-align: right;
+}
+
+p.centerButtonCushion {
+	width: 45%;
+	float: left;
+}
+
+span.centerButton {
+	padding: 20px;
+	width: 110px;
+	float: left;
+}
