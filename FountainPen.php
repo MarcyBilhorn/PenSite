@@ -8,7 +8,7 @@
             return $this->name . ", " . $this->color;
         }
 
-        // The purpose of this function is to add a new Fountain Pen to the database
+        // The purpose of this function is to add a new fountain pen to the database
         public function addNewItem() {
             $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
             $query = "INSERT INTO item_info (brand_id, color, category, name, description) VALUES ($this->brandId, '$this->color', 'Fountain Pen', '$this->name', '$this->description')";
